@@ -1,6 +1,6 @@
 PROGRAM = uuencode-simple
-SCRIPT  = embed-ass
-DOCS    = copyright README.md
+SCRIPT  = embed-ass.in
+DOCS    = COPYING README.md
 BINDIR  = $(DESTDIR)$(PREFIX)/bin
 CFLAGS += -Wall -Werror
 
